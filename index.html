@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha256-siyOpF/pBWUPgIcQi17TLBkjvNgNQArcmwJB8YvkAgg=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="build/css/intlTelInput.css">
+
+
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  <div class="hr">
+    -
+  </div><br>
+
+  <nav class="navbar navbar-expand-md">
+      <a class="navbar-brand abs" href="#">
+      <img src="logo.png" width="200" class="d-inline-block align-top" alt="">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="collapsingNavbar">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <div class="dropdown">
+                  Languange :
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      English
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">English</a>
+                      <a class="dropdown-item" href="#">Indonesia</a>
+                    </div>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+  <div class="notif">
+    You dont have an account yet. Please create a new account
+  </div><br>
+
+  <div class="jumbotron">
+  <form>
+    <div class="font-weight-bold">Create New Account</div><br>
+    <label>Title</label><br>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+      <label class="form-check-label" for="inlineCheckbox1">Mrs</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+      <label class="form-check-label" for="inlineCheckbox2">Ms</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+      <label class="form-check-label" for="inlineCheckbox3">Mdm</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+      <label class="form-check-label" for="inlineCheckbox3">Mr</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+      <label class="form-check-label" for="inlineCheckbox3">Dr</label>
+    </div>
+    <br><br>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label>Last Name</label>
+        <input type="text" class="form-control" id="inputLasName" placeholder="Last Name">
+      </div>
+      <div class="form-group col-md-6">
+        <label>First Name</label>
+        <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+      </div>
+    </div>
+    <div class="form-group">
+    	<label>Mobile Phone Number</label><br>
+	    <input id="phone" class="form-control" name="phone" type="tel">
+	</div>
+
+    <div class="font-weight-bold">Address</div>
+
+    <div class="form-group">
+      <label for="inputAddress">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputState">Country/Location</label>
+        <select id="inputState" class="form-control">
+          <option selected>Select Country/Location</option>
+          <option>...</option>
+        </select>
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="inputState">Province/District</label>
+        <select id="inputState" class="form-control">
+          <option selected>Select Province/District</option>
+          <option>...</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="font-weight-bold">Contact</div>
+
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputAddress">Email Address</label>
+      <input type="text" class="form-control" id="emailAddress" placeholder="email adress">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="Date">Date of Birth</label>
+      <input type="text" class="form-control datepicker" id="date" name="date" placeholder="Date of Birth">
+    </div>
+    </div>
+
+
+    <div class="font-weight-bold">Standard Privacy Note</div> 
+      <p>L’OCCITANE is committed to protecting your privacy. You can visit most pages on our website without giving us your personal information, such as your name, address and email address. However, we obtain certain information by automated means, when you visit our website through the use of cookies and pixel tags, which are standard tools in the internet industry. The use of cookies and pixel tags enables us to know your IP address, the type of browser you are using, and general browser activity.</p>
+      <p>If you turn off cookies on your computer, you will not be able to complete a purchase on the website. In order to complete a purchase on the website, you will need to provide us with your personal information. However, none of the information that you provide to us is disclosed to any third party other than for the purposes of credit card purchase validation, fulfillment for order delivery, marketing and promotion. We use this information within the L’OCCITANE Group only and have taken all measures that are necessary to keep this personal information confidential.</p>
+      <p>You have the ability to review, change or request deletion of your personal information or unsubscribe newsletter by sending an email to loccitane@aba-id.com</p>
+
+
+    <div class="custom-control custom-radio custom-control-inline col-md-3">
+      <label class="custom-control-label" for="customRadioInline1">SMS & Mobile Call</label>
+      <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+    </div>
+    <div class="custom-control custom-radio custom-control-inline col-md-4">
+      <label class="custom-control-label" for="customRadioInline2">Emailing</label>
+      <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+    </div>
+    <div class="custom-control custom-radio custom-control-inline col-md-4">
+      <label class="custom-control-label" for="customRadioInline2">Mailing</label>
+      <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+    </div>
+    
+    <br><br>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+      <label class="form-check-label" for="inlineCheckbox3">I have read and understood the above terms and conditions
+      are hereby agree that I will be bounded by these condition and policies once I have submitted this application form.</label>
+    </div>
+
+    <br><br>
+    <button type="submit" class="btn btn-warning float-right">Create Customer</button>
+
+  </form>
+  </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha256-bqVeqGdJ7h/lYPq6xrPv/YGzMEb6dNxlfiTUHSgRCp8=" crossorigin="anonymous"></script>
+    
+  <script>
+    $(function(){
+        $(".datepicker").datepicker({
+          format: 'dd-mm-yyyy',
+          autoclose: true,
+          todayHighlight: true,
+        });
+      }); 
+  </script> 
+  <script src="build/js/intlTelInput.js"></script>
+  <script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      utilsScript: "build/js/utils.js",
+    });
+  </script>    
+    
+  </body>
+</html>
